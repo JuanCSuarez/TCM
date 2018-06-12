@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="0"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jpnlTop" max="32767" attributes="0"/>
+                  <Component id="jpnlMid" max="32767" attributes="0"/>
+                  <Component id="jpnlMid1" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jpnlBot" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jpnlTop" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jpnlMid1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jpnlMid" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jpnlBot" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jpnlTop">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlblTop" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jlblTop" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlblTop">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="18" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="REPORTE DE PROFESOR"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jpnlMid">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder bevelType="1"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" pref="255" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jtblProRep">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jpnlBot">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jbtnExp" min="-2" pref="120" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jbtnExit" min="-2" pref="120" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jbtnExit" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbtnExp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jbtnExit">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/exit_medium.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Salir"/>
+            <Property name="toolTipText" type="java.lang.String" value="Regresar a pantalla principal"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnExitActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbtnExp">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/xlsexport_lil.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Exportar"/>
+            <Property name="toolTipText" type="java.lang.String" value="Exporta los valores en pantalla a .XLS"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnExpActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jpnlMid1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Rangos"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jlblIni" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jcboxIniDay" min="-2" pref="61" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jcboxIniMon" min="-2" pref="77" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jcboxIniYea" min="-2" pref="84" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jSeparator1" min="-2" pref="2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jcboxFinDay" min="-2" pref="61" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jcboxFinMon" min="-2" pref="77" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jcboxFinYea" min="-2" pref="84" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jlblFin" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Component id="jSeparator2" min="-2" pref="2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jlblSpec" alignment="0" min="-2" pref="108" max="-2" attributes="0"/>
+                      <Component id="jcboxSpec" alignment="0" min="-2" pref="148" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="314" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jbtnReset" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jbtnLoadInv" alignment="0" pref="155" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="jlblSpec" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jcboxSpec" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jSeparator1" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
+                      <Component id="jSeparator2" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jbtnLoadInv" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jbtnReset" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jlblIni" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jcboxIniDay" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jcboxIniMon" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jcboxIniYea" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jlblFin" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jcboxFinDay" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jcboxFinMon" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jcboxFinYea" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jlblIni">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fecha Inicial"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Choice" name="jcboxIniDay">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="jcboxIniDay.addItem(&quot;01&quot;);&#xa;jcboxIniDay.addItem(&quot;02&quot;);&#xa;jcboxIniDay.addItem(&quot;03&quot;);&#xa;jcboxIniDay.addItem(&quot;04&quot;);&#xa;jcboxIniDay.addItem(&quot;05&quot;);&#xa;jcboxIniDay.addItem(&quot;06&quot;);&#xa;jcboxIniDay.addItem(&quot;07&quot;);&#xa;jcboxIniDay.addItem(&quot;08&quot;);&#xa;jcboxIniDay.addItem(&quot;09&quot;);&#xa;jcboxIniDay.addItem(&quot;10&quot;);&#xa;jcboxIniDay.addItem(&quot;11&quot;);&#xa;jcboxIniDay.addItem(&quot;12&quot;);&#xa;jcboxIniDay.addItem(&quot;13&quot;);&#xa;jcboxIniDay.addItem(&quot;14&quot;);&#xa;jcboxIniDay.addItem(&quot;15&quot;);&#xa;jcboxIniDay.addItem(&quot;16&quot;);&#xa;jcboxIniDay.addItem(&quot;17&quot;);&#xa;jcboxIniDay.addItem(&quot;18&quot;);&#xa;jcboxIniDay.addItem(&quot;19&quot;);&#xa;jcboxIniDay.addItem(&quot;20&quot;);&#xa;jcboxIniDay.addItem(&quot;21&quot;);&#xa;jcboxIniDay.addItem(&quot;22&quot;);&#xa;jcboxIniDay.addItem(&quot;23&quot;);&#xa;jcboxIniDay.addItem(&quot;24&quot;);&#xa;jcboxIniDay.addItem(&quot;25&quot;);&#xa;jcboxIniDay.addItem(&quot;26&quot;);&#xa;jcboxIniDay.addItem(&quot;27&quot;);&#xa;jcboxIniDay.addItem(&quot;28&quot;);&#xa;jcboxIniDay.addItem(&quot;29&quot;);&#xa;jcboxIniDay.addItem(&quot;30&quot;);&#xa;jcboxIniDay.addItem(&quot;31&quot;);"/>
+          </AuxValues>
+        </Component>
+        <Component class="java.awt.Choice" name="jcboxIniMon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="jcboxIniMon.addItem(&quot;Ene&quot;);&#xa;jcboxIniMon.addItem(&quot;Feb&quot;);&#xa;jcboxIniMon.addItem(&quot;Mar&quot;);&#xa;jcboxIniMon.addItem(&quot;Abr&quot;);&#xa;jcboxIniMon.addItem(&quot;May&quot;);&#xa;jcboxIniMon.addItem(&quot;Jun&quot;);&#xa;jcboxIniMon.addItem(&quot;Jul&quot;);&#xa;jcboxIniMon.addItem(&quot;Ago&quot;);&#xa;jcboxIniMon.addItem(&quot;Sep&quot;);&#xa;jcboxIniMon.addItem(&quot;Oct&quot;);&#xa;jcboxIniMon.addItem(&quot;Nov&quot;);&#xa;jcboxIniMon.addItem(&quot;Dic&quot;);"/>
+          </AuxValues>
+        </Component>
+        <Component class="java.awt.Choice" name="jcboxIniYea">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="jcboxIniYea.addItem(&quot;2018&quot;);&#xa;jcboxIniYea.addItem(&quot;2019&quot;);&#xa;jcboxIniYea.addItem(&quot;2020&quot;);&#xa;jcboxIniYea.addItem(&quot;2021&quot;);&#xa;jcboxIniYea.addItem(&quot;2022&quot;);&#xa;jcboxIniYea.addItem(&quot;2023&quot;);&#xa;jcboxIniYea.addItem(&quot;2024&quot;);&#xa;jcboxIniYea.addItem(&quot;2025&quot;);&#xa;jcboxIniYea.addItem(&quot;2026&quot;);&#xa;jcboxIniYea.addItem(&quot;2027&quot;);&#xa;jcboxIniYea.addItem(&quot;2028&quot;);&#xa;jcboxIniYea.addItem(&quot;2029&quot;);&#xa;jcboxIniYea.addItem(&quot;2030&quot;);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlblFin">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Fecha Final"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Choice" name="jcboxFinDay">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="jcboxFinDay.addItem(&quot;01&quot;);&#xa;jcboxFinDay.addItem(&quot;02&quot;);&#xa;jcboxFinDay.addItem(&quot;03&quot;);&#xa;jcboxFinDay.addItem(&quot;04&quot;);&#xa;jcboxFinDay.addItem(&quot;05&quot;);&#xa;jcboxFinDay.addItem(&quot;06&quot;);&#xa;jcboxFinDay.addItem(&quot;07&quot;);&#xa;jcboxFinDay.addItem(&quot;08&quot;);&#xa;jcboxFinDay.addItem(&quot;09&quot;);&#xa;jcboxFinDay.addItem(&quot;10&quot;);&#xa;jcboxFinDay.addItem(&quot;11&quot;);&#xa;jcboxFinDay.addItem(&quot;12&quot;);&#xa;jcboxFinDay.addItem(&quot;13&quot;);&#xa;jcboxFinDay.addItem(&quot;14&quot;);&#xa;jcboxFinDay.addItem(&quot;15&quot;);&#xa;jcboxFinDay.addItem(&quot;16&quot;);&#xa;jcboxFinDay.addItem(&quot;17&quot;);&#xa;jcboxFinDay.addItem(&quot;18&quot;);&#xa;jcboxFinDay.addItem(&quot;19&quot;);&#xa;jcboxFinDay.addItem(&quot;20&quot;);&#xa;jcboxFinDay.addItem(&quot;21&quot;);&#xa;jcboxFinDay.addItem(&quot;22&quot;);&#xa;jcboxFinDay.addItem(&quot;23&quot;);&#xa;jcboxFinDay.addItem(&quot;24&quot;);&#xa;jcboxFinDay.addItem(&quot;25&quot;);&#xa;jcboxFinDay.addItem(&quot;26&quot;);&#xa;jcboxFinDay.addItem(&quot;27&quot;);&#xa;jcboxFinDay.addItem(&quot;28&quot;);&#xa;jcboxFinDay.addItem(&quot;29&quot;);&#xa;jcboxFinDay.addItem(&quot;30&quot;);&#xa;jcboxFinDay.addItem(&quot;31&quot;);"/>
+          </AuxValues>
+        </Component>
+        <Component class="java.awt.Choice" name="jcboxFinMon">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="jcboxFinMon.addItem(&quot;Ene&quot;);&#xa;jcboxFinMon.addItem(&quot;Feb&quot;);&#xa;jcboxFinMon.addItem(&quot;Mar&quot;);&#xa;jcboxFinMon.addItem(&quot;Abr&quot;);&#xa;jcboxFinMon.addItem(&quot;May&quot;);&#xa;jcboxFinMon.addItem(&quot;Jun&quot;);&#xa;jcboxFinMon.addItem(&quot;Jul&quot;);&#xa;jcboxFinMon.addItem(&quot;Ago&quot;);&#xa;jcboxFinMon.addItem(&quot;Sep&quot;);&#xa;jcboxFinMon.addItem(&quot;Oct&quot;);&#xa;jcboxFinMon.addItem(&quot;Nov&quot;);&#xa;jcboxFinMon.addItem(&quot;Dic&quot;);"/>
+          </AuxValues>
+        </Component>
+        <Component class="java.awt.Choice" name="jcboxFinYea">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="jcboxFinYea.addItem(&quot;2018&quot;);&#xa;jcboxFinYea.addItem(&quot;2019&quot;);&#xa;jcboxFinYea.addItem(&quot;2020&quot;);&#xa;jcboxFinYea.addItem(&quot;2021&quot;);&#xa;jcboxFinYea.addItem(&quot;2022&quot;);&#xa;jcboxFinYea.addItem(&quot;2023&quot;);&#xa;jcboxFinYea.addItem(&quot;2024&quot;);&#xa;jcboxFinYea.addItem(&quot;2025&quot;);&#xa;jcboxFinYea.addItem(&quot;2026&quot;);&#xa;jcboxFinYea.addItem(&quot;2027&quot;);&#xa;jcboxFinYea.addItem(&quot;2028&quot;);&#xa;jcboxFinYea.addItem(&quot;2029&quot;);&#xa;jcboxFinYea.addItem(&quot;2030&quot;);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlblSpec">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ver espec&#xed;fico"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Choice" name="jcboxSpec">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Dialog" size="14" style="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jcboxSpecItemStateChanged"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="jcboxSpec.addItem(&quot;Escoja un valor&quot;);&#xa;jcboxSpec.addItem(&quot;Hoy&quot;);&#xa;jcboxSpec.addItem(&quot;Ayer&quot;);&#xa;jcboxSpec.addItem(&quot;&#xda;ltima semana&quot;);&#xa;jcboxSpec.addItem(&quot;&#xda;ltimo mes&quot;);"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator1">
+          <Properties>
+            <Property name="orientation" type="int" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSeparator" name="jSeparator2">
+          <Properties>
+            <Property name="orientation" type="int" value="1"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbtnLoadInv">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/loadicon_lil.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Cargar Valores"/>
+            <Property name="toolTipText" type="java.lang.String" value="Muestra la lista de facturaci&#xf3;n seg&#xfa;n el rango especificado"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnLoadInvActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jbtnReset">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/Images/clear_2_medium.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Limpiar"/>
+            <Property name="toolTipText" type="java.lang.String" value="Elimina los ajustes de pantalla y limpia los resultados"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbtnResetActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
